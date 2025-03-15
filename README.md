@@ -3,7 +3,7 @@
 ## 📌 Overview
 This repository contains a complete data analysis workflow, from fetching raw data to cleaning, analyzing, and visualizing insights. The project demonstrates best practices in data handling, SQL-based analysis, and visualization techniques.
 <p align ="center">
-  <img src="img/eda.PNG" width="450" height="300">
+  <img src="img/eda-linkedin.PNG" width="450" height="300">
 </p>
 
 ## 📂 Project Structure
