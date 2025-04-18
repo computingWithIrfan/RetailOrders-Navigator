@@ -4,16 +4,11 @@
 2,3,2023-01-10,Second Class,Corporate,United States,Los Angeles,California,90036,West,Office Supplies,Labels,OFF-LA-10000240,2,0.5,9.5,-0.5
 3,4,2022-06-18,Standard Class,Consumer,United States,Fort Lauderdale,Florida,33311,South,Furniture,Tables,FUR-TA-10000577,5,19.2,940.8,160.79999999999995
 4,5,2022-07-13,Standard Class,Consumer,United States,Fort Lauderdale,Florida,33311,South,Office Supplies,Storage,OFF-ST-10000760,2,1.0,19.0,-1.0
-5,6,2022-03-13,,Consumer,United States,Los Angeles,California,90032,West,Furniture,Furnishings,FUR-FU-10001487,7,1.5,48.5,-1.5
 6,7,2022-12-28,Standard Class,Consumer,United States,Los Angeles,California,90032,West,Office Supplies,Art,OFF-AR-10002833,4,0.3,9.7,-0.3000000000000007
 7,8,2022-01-25,Standard Class,Consumer,United States,Los Angeles,California,90032,West,Technology,Phones,TEC-PH-10002275,6,45.5,864.5,4.5
-8,9,2023-03-23,,Consumer,United States,Los Angeles,California,90032,West,Office Supplies,Binders,OFF-BI-10003910,3,0.4,19.6,-0.3999999999999986
 9,10,2023-05-16,Standard Class,Consumer,United States,Los Angeles,California,90032,West,Office Supplies,Appliances,OFF-AP-10002892,5,3.3000000000000003,106.7,16.700000000000003
-10,11,2023-03-31,,Consumer,United States,Los Angeles,California,90032,West,Furniture,Tables,FUR-TA-10001539,9,51.300000000000004,1658.7,188.70000000000005
-11,12,2023-12-25,,Consumer,United States,Los Angeles,California,90032,West,Technology,Phones,TEC-PH-10002033,4,27.3,882.7,132.70000000000005
 12,13,2022-02-11,Standard Class,Consumer,United States,Concord,North Carolina,28027,South,Office Supplies,Paper,OFF-PA-10002365,3,0.6,19.4,-0.6000000000000014
 13,14,2023-07-18,Standard Class,Consumer,United States,Seattle,Washington,98103,West,Office Supplies,Binders,OFF-BI-10003656,3,8.2,401.8,41.80000000000001
-14,15,2023-11-09,,Home Office,United States,Fort Worth,Texas,76106,Central,Office Supplies,Appliances,OFF-AP-10002311,5,3.5,66.5,6.5
 15,16,2022-06-18,Standard Class,Home Office,United States,Fort Worth,Texas,76106,Central,Office Supplies,Binders,OFF-BI-10000756,3,0.0,0.0,0.0
 16,17,2022-02-04,Standard Class,Consumer,United States,Madison,Wisconsin,53711,Central,Office Supplies,Storage,OFF-ST-10004186,6,20.1,649.9,39.89999999999998
 17,18,2023-08-04,Second Class,Consumer,United States,West Jordan,Utah,84084,West,Office Supplies,Storage,OFF-ST-10000107,2,2.4,57.6,-2.3999999999999986
@@ -117,7 +112,6 @@
 115,116,2022-11-15,Second Class,Consumer,United States,Columbus,Ohio,43229,East,Office Supplies,Paper,OFF-PA-10004965,3,0.8,19.2,-0.8000000000000007
 116,117,2022-06-30,Second Class,Consumer,United States,Columbus,Ohio,43229,East,Office Supplies,Envelopes,OFF-EN-10002504,6,6.5,123.5,3.5
 117,118,2023-10-27,Standard Class,Consumer,United States,Seattle,Washington,98103,West,Furniture,Tables,FUR-TA-10001768,3,31.6,758.4,38.39999999999998
-118,119,2023-07-19,,Corporate,United States,Bristol,Tennessee,37620,South,Office Supplies,Binders,OFF-BI-10003650,1,8.0,152.0,12.0
 119,120,2023-03-30,First Class,Consumer,United States,Wilmington,Delaware,19805,East,Furniture,Furnishings,FUR-FU-10002157,3,1.5,48.5,-1.5
 120,121,2022-03-03,First Class,Consumer,United States,Wilmington,Delaware,19805,East,Office Supplies,Binders,OFF-BI-10003910,4,0.6,29.4,9.399999999999999
 121,122,2022-10-20,First Class,Consumer,United States,Wilmington,Delaware,19805,East,Office Supplies,Storage,OFF-ST-10000777,6,4.6000000000000005,225.4,35.400000000000006

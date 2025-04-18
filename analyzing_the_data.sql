@@ -27,6 +27,13 @@ SELECT r.region,SUM(r.sale_price) AS sales,COUNT(r.order_id) AS total_orders
   FROM dbo.retail_orders r
   GROUP BY r.region;
 
+-- Calculate average discount offered for each product category
+SELECT category,sub_category, AVG(discount) AS avg_discount,AVG(sale_price) as avg_price
+FROM dbo.retail_orders
+GROUP BY category,sub_category
+ORDER BY avg_discount DESC;
+
+
 -- Total sales By category and subcategory
 SELECT r.category,r.sub_category,SUM(r.sale_price) AS total_sales
   FROM dbo.retail_orders r
@@ -39,7 +46,7 @@ SELECT r.ship_mode,COUNT(r.order_id) AS no_of_orders
   GROUP BY r.ship_mode;
 
 -- Top 10 cities with highest sales and no of orders from it
-SELECT TOP 10 r.city ,SUM(R.sale_price) AS total_sales,COUNT(r.order_date) AS total_order
+SELECT TOP 10 r.city ,SUM(R.sale_price) AS total_sales,COUNT(r.order_id) AS total_order
   FROM dbo.retail_orders r
   GROUP BY r.city
   ORDER BY total_sales DESC;
@@ -54,3 +61,19 @@ ORDER BY revenue DESC;
 SELECT SUM(r.sale_price) AS actual_sales, SUM(r.sale_price + r.discount) AS sales_without_discount,
 	ROUND((100 -(SUM(r.sale_price)/SUM(r.sale_price + r.discount))*100),3) AS discount_total_revenue
 FROM dbo.retail_orders r;
+
+-- Identify specific dates with unusually high total sales
+SELECT Top 5 order_date, SUM(sale_price) AS daily_sales
+FROM dbo.retail_orders
+GROUP BY order_date
+ORDER BY daily_sales DESC ;
+
+-- Find states with high sales but lowest profit (low profitability)
+SELECT Top 5 state,
+       SUM(sale_price) AS total_sales,
+       SUM(profit) AS total_profit,
+       SUM(profit) / NULLIF(SUM(sale_price), 0) AS profit_ratio
+FROM dbo.retail_orders
+GROUP BY state
+HAVING SUM(sale_price) > 50000
+ORDER BY profit_ratio ASC;
